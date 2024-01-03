@@ -1,0 +1,148 @@
+CRITICAL - 2023-10-20 08:19:18 --> Invalid file: "admin/daftar_produk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/daftar_produk.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/daftar_produk', [], true)
+ 3 APPPATH\Controllers\Produk.php(9): view('admin/daftar_produk')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_5\\public\\index.php')
+CRITICAL - 2023-10-20 08:34:02 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+in APPPATH\Controllers\Admin\Admin.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_5\\app\\Controllers\\Admin\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Admin')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Admin\\Admin')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Admin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_5\\public\\index.php')
+CRITICAL - 2023-10-20 13:57:44 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_5\\public\\index.php')
+CRITICAL - 2023-10-20 14:03:10 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:03:52 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:03:54 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:06:44 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:06:47 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:06:47 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:09:01 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 14:10:19 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 15:04:23 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 15:04:27 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 15:04:28 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 15:04:57 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_7\\public\\index.php')
+CRITICAL - 2023-10-20 15:05:10 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 15:05:50 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 15:05:51 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 15:05:51 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 15:05:51 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-20 15:05:52 --> Class 'App\Libraries\Template' not found
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

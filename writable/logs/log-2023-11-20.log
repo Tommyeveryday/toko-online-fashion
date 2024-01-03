@@ -1,0 +1,227 @@
+CRITICAL - 2023-11-20 11:19:34 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 14 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:22:31 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 14 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-20 11:25:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+#8 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+#7 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-20 11:25:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Admin\Dashboard.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:25:30 --> Undefined variable: data
+in APPPATH\Controllers\Admin\Dashboard.php on line 12.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Controllers\\Admin\\Dashboard.php', 12, [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:28:55 --> Too few arguments to function App\Libraries\Template::show_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::show_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 11:44:12 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:04:19 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:05:10 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:31:04 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:37:06 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:37:08 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:37:09 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:37:14 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:37:14 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:40:28 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:42:10 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:45:42 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:47:01 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:49:34 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(13): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:49:47 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:50:11 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Libraries\Template.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Libraries\\Template.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\Template')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\Template')
+ 4 APPPATH\Controllers\Admin\Dashboard.php(12): spl_autoload_call('App\\Libraries\\Template')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 12:52:48 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

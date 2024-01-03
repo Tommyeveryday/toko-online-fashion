@@ -1,0 +1,271 @@
+CRITICAL - 2023-11-21 02:33:14 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:43:49 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:43:49 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:43:50 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 12 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:44:27 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 13 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(13): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:44:28 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Dashboard.php on line 13 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(13): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:46:17 --> syntax error, unexpected ':', expecting ')'
+in APPPATH\Views\admin\produk_daftar.php on line 32.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_daftar', [], true)
+ 3 APPPATH\Libraries\Template.php(29): view('admin/produk_daftar', [...])
+ 4 APPPATH\Controllers\Admin\Produk.php(21): App\Libraries\Template::tampil_admin('admin/produk_daftar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:49:12 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:49:27 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 26 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(26): App\Libraries\Template::tampil_admin('admin/produk_tambah')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:52:39 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 02:55:55 --> Too few arguments to function App\Libraries\Template::tampil_Admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_Admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:08:44 --> Too few arguments to function App\Libraries\Template::tampil_Admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 26 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(26): App\Libraries\Template::tampil_Admin('admin/produk_tambah')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:17:56 --> Too few arguments to function App\Libraries\Template::tampil_Admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_Admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:18:40 --> Too few arguments to function App\Libraries\Template::tampil_Admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_Admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:19:06 --> Undefined variable: data
+in APPPATH\Controllers\Admin\Produk.php on line 31.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Controllers\\Admin\\Produk.php', 31, [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:23:43 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 24.
+ 1 APPPATH\Views\user\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(12): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:24:15 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 27.
+ 1 APPPATH\Views\user\beranda.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 27, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(12): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:24:57 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 27.
+ 1 APPPATH\Views\user\beranda.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 27, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(19): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:24:58 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 27.
+ 1 APPPATH\Views\user\beranda.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 27, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(19): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:25:27 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 23.
+ 1 APPPATH\Views\user\beranda.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 23, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(19): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:26:04 --> Undefined variable: product_list
+in APPPATH\Views\user\beranda.php on line 24.
+ 1 APPPATH\Views\user\beranda.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_9\\app\\Views\\user\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user/beranda', [], true)
+ 5 APPPATH\Libraries\Template.php(13): view('user/beranda')
+ 6 APPPATH\Controllers\User\Beranda.php(19): App\Libraries\Template::tampil_user('user/beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:28:19 --> Too few arguments to function App\Libraries\Template::tampil_Admin(), 1 passed in C:\xampp\htdocs\unhi_pemrograman_web_2\pertemuan_9\app\Controllers\Admin\Produk.php on line 31 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 24.
+ 1 APPPATH\Controllers\Admin\Produk.php(31): App\Libraries\Template::tampil_Admin('admin/produk_edit')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 13:47:11 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(36): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:09:33 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(34): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:10:35 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(34): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:13:45 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(37): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:14:59 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(37): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:15:17 --> Undefined variable: row
+in APPPATH\Views\admin\produk_edit.php on line 14.
+ 1 APPPATH\Views\admin\produk_edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 14, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(37): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:15:46 --> Undefined variable: product_list
+in APPPATH\Views\admin\produk_edit.php on line 13.
+ 1 APPPATH\Views\admin\produk_edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product_list', 'C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\unhi_pemrograman_web_2\\pertemuan_10\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(29): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(37): App\Libraries\Template::tampil_Admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

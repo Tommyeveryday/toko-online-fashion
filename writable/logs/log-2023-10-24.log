@@ -1,0 +1,10 @@
+CRITICAL - 2023-10-24 06:18:54 --> Invalid file: "admin/prodyk_daftar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/prodyk_daftar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/prodyk_daftar', [], true)
+ 3 APPPATH\Libraries\Template.php(27): view('admin/prodyk_daftar')
+ 4 APPPATH\Controllers\Admin\Produk.php(12): App\Libraries\Template::tampil_admin('admin/prodyk_daftar')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

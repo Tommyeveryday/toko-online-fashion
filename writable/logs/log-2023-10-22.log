@@ -1,0 +1,20 @@
+CRITICAL - 2023-10-22 14:20:28 --> Invalid file: "components/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/header', [], true)
+ 3 APPPATH\Libraries\Template.php(9): view('components/header')
+ 4 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 14:20:46 --> Invalid file: "components/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/header', [], true)
+ 3 APPPATH\Libraries\Template.php(9): view('components/header')
+ 4 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
